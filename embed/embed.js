@@ -1,6 +1,6 @@
 let baseUrl = 'https://my-json-server.typicode.com/typicode/demo';
 window.onload = () => {
-    
+    console.log('on load', window.location.href);
     let elements = getAllEmbedElements();
 
     for(let element of elements) {
